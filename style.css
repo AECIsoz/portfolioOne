@@ -1,6 +1,28 @@
 body {
-    background-image: url(./resources/deerdaisysiluette.PNG);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position-x: center;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container{
+    display: inline-flex;
+    height: 120px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.logo {
+    width: 15%;
+}
+
+.left, .right {
+    background-color: #555E56;
+    width: 40%;
 }
