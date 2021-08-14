@@ -1,3 +1,6 @@
+/* universal styles 
+=================================================*/
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -6,12 +9,14 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
+/* top navigation styles 
+=================================================*/
 .container {
     display: flex;
     justify-content: space-between;
 }
 
-.nav-container{
+.nav-container {
     display: inline-flex;
     height: 120px;
     margin: 10px;
@@ -23,6 +28,25 @@ h1 {
 }
 
 .left, .right {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #555E56;
     width: 40%;
+}
+
+button {
+    height: 40px;
+    background-color: #555E56;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+}
+
+.nav-container a {
+    text-transform: uppercase;
+    text-decoration-line: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
