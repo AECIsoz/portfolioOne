@@ -3,10 +3,14 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
     font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 /* top navigation styles 
@@ -18,7 +22,7 @@ h1 {
 .nav-container {
     display: inline-flex;
     height: 120px;
-    margin: 10px;
+    /*margin: 10px;*/
     justify-content: center;
 }
 .logo {
@@ -29,7 +33,7 @@ h1 {
     justify-content: space-around;
     align-items: center;
     background-color: #555E56;
-    width: 40%;
+    width: 42.5%;
 }
 .menu-items {
     display: inline-flex;
@@ -88,6 +92,23 @@ h1 {
     }
 }
 
-
 /* projects section styles 
 =================================================*/
+
+.projects-container {
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    padding-top: 30px;
+    border: 2px black;
+}
+.projects {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 90%;
+    padding-top: 2rem;
+}
+.featured-project {
+    background-color: #CCE3D0;
+    width: 32%;
+}
