@@ -94,6 +94,18 @@ h1 {
         font-size: 0.8rem;
     }
 }
+/* intro section styles 
+=================================================*/
+.intro-container {
+    display: flex;
+    height: 400px;
+    margin-top: 10px;
+    border: 5rem solid #555E56;
+}
+.intro-content {
+    width: 100%;
+    box-shadow: 10px 10px 30px black inset;
+}
 
 /* projects section styles 
 =================================================*/
