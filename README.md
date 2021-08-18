@@ -3,4 +3,4 @@ My portfolio website for the projects I complete in the Front End Developer Care
 
 
 ##### Attributions
-Background photo in Projects section: Photo by Muhannad Ajjan on Unsplash
+Project image business website: Photo by Chris Yang on Unsplash
