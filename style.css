@@ -23,13 +23,25 @@ h2 {
     letter-spacing: 2px;
     color: white;
 }
+h3 {
+    font-size: 1.8rem;
+    color: white;
+}
+p {
+    color: white;
+}
 button {
     background-color: rgba(204, 227, 208, 0.3);
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     height: 50px;
     color: white;
     font-size: 1.3rem;
+    padding: 0.8rem;
+}
+button:hover {
+    cursor: grab;
+    background-color: #67AB72;
 }
 
 /* top navigation styles 
@@ -133,11 +145,15 @@ button {
     padding: 0 20px;
     text-align: center;
 }
-.introduction p {
+.motto {
     color: white;
     font-size: 1.4rem;
     margin: 0;
     width: 60%;
+}
+.introduction img {
+    width: 200px;
+    height: 200px;
 }
 
 
