@@ -155,7 +155,15 @@ button:hover {
     width: 200px;
     height: 200px;
 }
-
+.introduction a {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 3px;
+    border-radius: 3px;
+}
+.slide-title {
+    font-family: 'Cormorant Garamond' serif;
+    text-transform: uppercase;
+}
 
 /* projects section styles 
 =================================================*/

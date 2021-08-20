@@ -1,7 +1,15 @@
-document.getElementById('slide-one-title').hidden = true;
+let start = document.getElementById('start');
+let initiate = document.getElementById('initiate');
+let slideOne = document.getElementById('slide-one');
+let slideOneTitle = document.getElementById('slide-one-title');
 
-let startPresentation = function() {
-    document.getElementById('start').hidden = true;
+slideOneTitle.style.display = 'none';
+slideOne.style.display = 'none';
+
+function startPresentation() {
+    start.style.display = 'none';
+    slideOneTitle.style.display = 'flex';
+    slideOne.style.display = 'flex';
 }
 
-document.getElementById('initiate').onclick = startPresentation;
+initiate.addEventListener('click', startPresentation);
