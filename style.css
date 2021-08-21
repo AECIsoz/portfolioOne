@@ -24,7 +24,7 @@ h2 {
     color: white;
 }
 h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: white;
 }
 p {
@@ -151,14 +151,30 @@ button:hover {
     margin: 0;
     width: 60%;
 }
-.introduction img {
+.presentation-slides {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.slides {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    border: 2px solid red;
+}
+.slides img {
     width: 200px;
     height: 200px;
+    border-radius: 100px;
 }
-.introduction a {
+.slides a {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 3px;
     border-radius: 3px;
+}
+.slides p {
+    text-align: center;
 }
 .slide-title {
     font-family: 'Cormorant Garamond' serif;
