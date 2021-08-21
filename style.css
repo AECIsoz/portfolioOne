@@ -153,15 +153,14 @@ button:hover {
 }
 .presentation-slides {
     display: flex;
-    flex-direction: column;
-    border: 2px solid black;
 }
 .slides {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 70%;
-    border: 2px solid red;
+    width: 800px;
+    margin-right: 100px;
 }
 .slides img {
     width: 200px;
@@ -169,16 +168,26 @@ button:hover {
     border-radius: 100px;
 }
 .slides a {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 3px;
-    border-radius: 3px;
+    color: white;
 }
 .slides p {
     text-align: center;
+    width: 60%;
 }
 .slide-title {
     font-family: 'Cormorant Garamond' serif;
     text-transform: uppercase;
+}
+.next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next button {
+    width: 100px;
+}
+#next-four {
+    width: 200px;
 }
 
 /* projects section styles 

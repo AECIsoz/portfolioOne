@@ -1,22 +1,50 @@
 let start = document.getElementById('start');
 let initiate = document.getElementById('initiate');
-let presentationSlides = document.getElementById('presentation-slides');
-/*let slideOne = document.getElementById('slide-one')
-let slideOneTitle = document.getElementById('slide-one-title');
-let next = document.getElementById('next');*/
+let slideOne = document.getElementById('slide-one');
+let slideTwo = document.getElementById('slide-two')
+let nextOne = document.getElementById('next-one');
+let slideThree = document.getElementById('slide-three');
+let nextTwo = document.getElementById('next-two');
+let slideFour = document.getElementById('slide-four')
+let nextThree = document.getElementById('next-three')
+let nextFour = document.getElementById('next-four');
 
-presentationSlides.style.display = 'none';
-/*slideOneTitle.style.display = 'none';
 slideOne.style.display = 'none';
-next.style.display = 'none';*/
+slideTwo.style.display = 'none';
+slideThree.style.display = 'none';
+slideFour.style.display = 'none';
 
 function startPresentation() {
     start.style.display = 'none';
-    presentationSlides.style.display = 'flex';
-    /*slideOneTitle.style.display = 'flex';
     slideOne.style.display = 'flex';
-    slideOne.style.flexDirection = 'row';
-    next.style.display = 'flex';*/
 }
 
 initiate.addEventListener('click', startPresentation);
+
+function moveToSlideTwo() {
+    slideOne.style.display = 'none';
+    slideTwo.style.display = 'flex';
+}
+
+nextOne.addEventListener('click', moveToSlideTwo);
+
+function moveToSlideThree() {
+    slideTwo.style.display = 'none';
+    slideThree.style.display = 'flex';
+}
+
+nextTwo.addEventListener('click', moveToSlideThree);
+
+function moveToSlideFour() {
+    slideThree.style.display = 'none';
+    slideFour.style.display = 'flex';
+}
+
+nextThree.addEventListener('click', moveToSlideFour);
+
+function startOver() {
+    slideFour.style.display = 'none';
+    start.style.display = 'flex';
+}
+
+nextFour.addEventListener('click', startOver);
