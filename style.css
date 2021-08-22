@@ -17,14 +17,16 @@ h1 {
     margin: 0;
 }
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 2.5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
 }
 h3 {
-    font-size: 1.5rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
     color: white;
 }
 p {
@@ -126,7 +128,7 @@ button:hover {
 =================================================*/
 .intro-container {
     display: flex;
-    height: 400px;
+    height: 460px;
     margin-top: 10px;
     border: 5rem solid #555E56;
 }
@@ -159,13 +161,13 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 800px;
+    max-width: 800px;
     margin-right: 100px;
 }
 .slides img {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
 }
 .slides a {
     color: white;
@@ -188,6 +190,47 @@ button:hover {
 }
 #next-four {
     width: 200px;
+}
+
+/* styling for small and medium screens 
+===================================================*/
+@media only screen and (max-width: 760px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .motto {
+        font-size: 1.2rem;
+    }
+    #initiate {
+        font-size: 1rem;
+    }
+    .intro-container {
+        height: 300px;
+        border: 3rem solid #555E56;
+    }
+    .slides {
+        flex-direction: row;
+        width: 100%;
+        padding: 30px 0;
+    }
+    .slides img {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+    }
+    .presentation-slides {
+        flex-direction: column;
+    }
+    h3 {
+        font-size: 1.3;
+        padding: 0 10px;
+    }
+    .slides p {
+        padding: 0 10px
+    }
+    .next {
+        margin: 20px 0;
+    }
 }
 
 /* projects section styles 
@@ -270,8 +313,8 @@ button:hover {
     #colmar img {
         width: 100%;
     }
-    h1 {
-        font-size: 1.6rem;
+    h2 {
+        font-size: 1.8rem;
         letter-spacing: 1px;
     }
 }
