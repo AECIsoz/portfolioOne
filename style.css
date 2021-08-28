@@ -25,7 +25,7 @@ h2 {
 }
 h3 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.8rem;
+    font-size: 2rem;
     letter-spacing: 1px;
     color: white;
 }
@@ -165,8 +165,8 @@ button:hover {
     margin-right: 100px;
 }
 .slides img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 125px;
 }
 .slides a {
@@ -174,7 +174,8 @@ button:hover {
 }
 .slides p {
     text-align: center;
-    width: 60%;
+    font-size: 1.4rem;
+    width: 70%;
 }
 .slide-title {
     font-family: 'Cormorant Garamond' serif;
@@ -263,6 +264,7 @@ button:hover {
     }
     .slides p {
         margin: 5px 0 0 0;
+        font-size: 1rem;
     }
     .slides img {
         display: none;
@@ -327,6 +329,9 @@ button:hover {
 .featured-project p {
     color: white;
 }
+.note {
+    font-size: 0.8rem;
+}
 
 @media only screen and (max-width: 1100px) {
     .featured-project {
@@ -354,6 +359,7 @@ button:hover {
     .feature-image {
         width: 50%;
         height: 50%;
+        margin-top: 10px;
     }
     #colmar img {
         width: 100%;
