@@ -1,3 +1,4 @@
+
 let start = document.getElementById('start');
 let initiate = document.getElementById('initiate');
 let slideOne = document.getElementById('slide-one');

@@ -9,7 +9,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Roboto:ital,wght@0,400;1,100&family=Cormorant+Garamond&display=swap');
         </style>
-    <script src="https://kit.fontawesome.com/a101703e57.js" crossorigin="anonymous"></script>
+    <script src="./components/header.js" type="text/javascript" defer></script>
     <title>Isoz Creative Web</title>
 </head>
 <body>
@@ -17,38 +17,7 @@
     <!--- top navigation 
     ===========================================================================================--> 
    <header>
-       <nav class="header-container">
-            <div class="nav-container left">
-                <ul class="menu-items">
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Services</a></li>
-                </ul>
-            </div>
-            <div class="nav-container logo">
-                <img src="./resources/400PngdpiLogo.png" alt="logo with black whispy symbol above the words isoz creative web">
-            </div>
-            <div class="nav-container right">
-                <ul class="menu-items">
-                    <li><a href="#">About me</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-       </nav>
-
-       <!-- header medium and small screens -->
-       <nav class="header-small">
-            <div class="small-header-logo">
-                <img src="./resources/400PngdpiLogo.png" alt="logo with black whispy symbol above the words isoz creative web">
-            </div>
-            <div class="small-header-menu">
-                <ul>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-       </nav>
+        <header-component></header-component>
     </header>
 
     <!-- Introduction to me 
@@ -140,14 +109,10 @@
         </section>
     </div>
     <footer>
-        <article>
-            <p>&copy; 2021 Isoz Creative Web</p>
-        </article>
-        <article class="icons">
-            <a target="_blank" href="https://www.linkedin.com/in/annaisoz/"><i class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-        </article>
+        <footer-component></footer-component>
     </footer>
+    <script src="https://kit.fontawesome.com/a101703e57.js" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
 </body>
 </html>
