@@ -9,6 +9,10 @@ class Header extends HTMLElement {
       .header-container {
         display: flex;
         justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
     }
     .nav-container {
         display: inline-flex;
@@ -90,7 +94,7 @@ class Header extends HTMLElement {
                     <li><a href="#">Projects</a></li>
                 </ul>
             </div>
-            <div class="nav-container logo">
+            <div class="nav-container logo" id="logotype">
                 <img src="./resources/400PngdpiLogo.png" alt="logo with black whispy symbol above the words isoz creative web">
             </div>
             <div class="nav-container right">
@@ -121,3 +125,9 @@ class Header extends HTMLElement {
 }
 
 customElements.define('header-component', Header);
+
+function makeGray() {
+    document.getElementById('logotype').style.backgroundColor = '#cce3d0';
+}
+
+document.addEventListener('scroll', makeGray);

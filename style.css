@@ -49,7 +49,7 @@ button:hover {
 
 /* top navigation styles 
 =================================================*/
-.header-container {
+/*.header-container {
     display: flex;
     justify-content: space-between;
 }
@@ -87,7 +87,7 @@ button:hover {
 .header-small {
     display: none;
 }
-/* header for medium and small screens */
+header for medium and small screens 
 
 .small-header-logo {
     display: flex;
@@ -123,13 +123,13 @@ button:hover {
     a {
         font-size: 0.8rem;
     }
-}
+}*/
 /* intro section styles 
 =================================================*/
 .intro-container {
     display: flex;
     height: 460px;
-    margin-top: 10px;
+    margin-top: 160px;
     border: 5rem solid #555E56;
 }
 .intro-content {
