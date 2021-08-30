@@ -47,83 +47,6 @@ button:hover {
     background-color: #67AB72;
 }
 
-/* top navigation styles 
-=================================================*/
-/*.header-container {
-    display: flex;
-    justify-content: space-between;
-}
-.nav-container {
-    display: inline-flex;
-    height: 120px;
-    justify-content: center;
-}
-.logo {
-    width: 15%;
-}
-.left, .right {
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #555E56;
-    width: 42.5%;
-}
-.menu-items {
-    display: inline-flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    padding: 0;
-}
-.nav-container li {
-    display: flex;
-}
-.nav-container a, .small-header-menu a {
-    text-transform: uppercase;
-    text-decoration-line: none;
-    font-family: 'Lato', sans-serif;
-    color: white;
-}
-.header-small {
-    display: none;
-}
-header for medium and small screens 
-
-.small-header-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-}
-.small-header-logo img {
-    height: 80px;
-}
-.small-header-menu {
-    display: flex;
-    background-color: #555E56;
-}
-.small-header-menu ul {
-    display: inline-flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-.small-header-menu li {
-    display: flex;
-}
-
-@media only screen and (max-width: 900px) {
-    .header-container {
-        display: none;
-    }
-    .header-small {
-        display: block;
-    }
-}
-@media only screen and (max-width: 500px) {
-    a {
-        font-size: 0.8rem;
-    }
-}*/
 /* intro section styles 
 =================================================*/
 .intro-container {
@@ -370,7 +293,37 @@ header for medium and small screens
     }
 }
 
-/*footer styles 
+/*contact page styles 
 =================================================*/
-
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+}
+.contact-info article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.contact-info h3 {
+    text-transform: uppercase;
+}
+.contact-info a {
+    color: white;
+    font-size: 1.3rem;
+    transition: color 0.5s;
+}
+.contact-info a:hover {
+    color: purple;
+}
+.fab {
+    font-size: 2.5rem;
+    padding: 20px;
+    transition: color 0.5s;
+}
+.fab:hover {
+    color: purple;
+}
 

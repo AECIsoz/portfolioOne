@@ -2,12 +2,12 @@
 let start = document.getElementById('start');
 let initiate = document.getElementById('initiate');
 let slideOne = document.getElementById('slide-one');
-let slideTwo = document.getElementById('slide-two')
+let slideTwo = document.getElementById('slide-two');
 let nextOne = document.getElementById('next-one');
 let slideThree = document.getElementById('slide-three');
 let nextTwo = document.getElementById('next-two');
-let slideFour = document.getElementById('slide-four')
-let nextThree = document.getElementById('next-three')
+let slideFour = document.getElementById('slide-four');
+let nextThree = document.getElementById('next-three');
 let nextFour = document.getElementById('next-four');
 
 slideOne.style.display = 'none';

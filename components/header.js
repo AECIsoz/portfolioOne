@@ -38,13 +38,24 @@ class Header extends HTMLElement {
     }
     .nav-container li {
         display: flex;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 1s ease-in
+    }
+    .nav-container li:hover {
+        background-color: #CCE3D0;
     }
     .nav-container a, .small-header-menu a {
         text-transform: uppercase;
         text-decoration-line: none;
         font-family: 'Lato', sans-serif;
         color: white;
+        transition: color;
     }
+    .nav-container a:hover, .small-header-menu a:hover {
+        color: black;
+    }
+
     .header-small {
         display: none;
     }
