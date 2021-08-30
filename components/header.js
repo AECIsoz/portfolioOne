@@ -110,7 +110,7 @@ class Header extends HTMLElement {
             </div>
             <div class="nav-container right">
                 <ul class="menu-items">
-                    <li><a href="#">Services</a></li>
+                    <li><a href="services.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -125,8 +125,8 @@ class Header extends HTMLElement {
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#">Projects</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>

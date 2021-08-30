@@ -210,7 +210,7 @@ button:hover {
     padding-top: 30px;
     border: 2px black;
 }
-.projects {
+.projects, .services-container {
     display: inline-flex;
     justify-content: space-evenly;
     width: 90%;
@@ -327,3 +327,25 @@ button:hover {
     color: purple;
 }
 
+/* services page styles
+=====================================================*/
+.services-container {
+    width: 100%;
+    padding: 30px;
+}
+.services {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 15px;
+    padding: 10px;
+    background-color: rgba(85, 94, 86, 0.4);
+    line-height: 1.3rem;
+}
+.services h3 {
+    margin: 10px 0;
+}
+.service-text {
+    line-height: 1.3rem;
+    text-align: left;
+}
