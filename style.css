@@ -349,3 +349,14 @@ button:hover {
     line-height: 1.3rem;
     text-align: left;
 }
+
+/* projects page styles
+========================================================*/
+.project-page {
+    margin-top: 120px;
+}
+.irl {
+    font-size: 1.4rem;
+    height: 2rem;
+    margin: 2rem 0;
+}
