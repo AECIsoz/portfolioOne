@@ -58,6 +58,10 @@ class Header extends HTMLElement {
 
     .header-small {
         display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
     }
     /* header for medium and small screens */
     
@@ -66,6 +70,9 @@ class Header extends HTMLElement {
         justify-content: center;
         align-items: center;
         height: 100px;
+        background-image: url("./resources/background-backdrop-pattern-design-texture-shiny-1418296-pxhere.com.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .small-header-logo img {
         height: 80px;
@@ -81,6 +88,11 @@ class Header extends HTMLElement {
     }
     .small-header-menu li {
         display: flex;
+    }
+    @media only screen and (max-width: 1150px) {
+        .logo img {
+            height: 90px;
+        }
     }
     
     @media only screen and (max-width: 900px) {
