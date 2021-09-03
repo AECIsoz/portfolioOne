@@ -51,7 +51,7 @@ button:hover {
 =================================================*/
 .intro-container {
     display: flex;
-    height: 460px;
+    min-height: 460px;
     margin-top: 160px;
     border: 5rem solid #555E56;
 }
@@ -130,8 +130,8 @@ button:hover {
         font-size: 1rem;
     }
     .intro-container {
-        height: 300px;
-        border: 3rem solid #555E56;
+        min-height: 300px;
+        border: 2rem solid #555E56;
     }
     .slides {
         flex-direction: row;
@@ -348,6 +348,23 @@ button:hover {
 .service-text {
     line-height: 1.3rem;
     text-align: left;
+}
+@media only screen and (max-width: 1200px) {
+    .services h3 {
+        font-size: 1.2rem;
+    }
+    .services p {
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .services-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .services {
+        width: 95%;
+    }
 }
 
 /* projects page styles
