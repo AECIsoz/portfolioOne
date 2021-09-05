@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./resources/FaviconLogo.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Roboto:ital,wght@0,400;1,100&family=Cormorant+Garamond&display=swap');
+        </style>
+    <script src="./components/header.js" type="text/javascript" defer></script>
+    <title>Presentation</title>
+</head>
+<body>
+    <header>
+        <header-component></header-component>
+    </header>
+
+    <div class="intro-container">
+        <section class="intro-content">
+            <!-- displays when page loads -->
+            <article class="presentation-slides" id="slide-one">
+                <article class="slides">
+                    <h3 class="slide-title">Professional</h3>
+                    <img src="./resources/Anna_cropped1.png" alt="Close up photo of Anna Isoz in a blue shirt">
+                    <p>My day job is Project Manager and Coordinator at <a href="https://www.kth.se/en/om/innovation/kth-innovation-1.956839">KTH Innovation</a>. We help researchers, students and employees at KTH take new technology to the market.</p>
+                </article>
+                <div class="next">
+                <a href="index.html"><button>Home</button></a>
+                <button id="next-one">Next</button>
+                </div>
+            </article>
+            <!-- displays after clicking first Next button-->
+            <article class="presentation-slides" id="slide-two">
+                <article class="slides">
+                    <h3 class="slide-title">Business</h3>
+                    <img src="./resources/Annacreativeweb.jpg" alt="Close up photo of Anna Isoz wearing sunglasses">
+                    <p>On the side, I run my own business - <a href="http://deerdaisyinn.se/">The Deer & Daisy</a> - soon to be a classic English Country Inn in the south of Sweden.</p>
+                </article>
+                <div class="next">
+                    <a href="index.html"><button>Home</button></a>
+                <button id="next-two">Next</button>
+                </div>
+            </article>
+            <!-- displays after clicking second Next button-->
+            <article class="presentation-slides" id="slide-three">
+                <article class="slides">
+                    <h3 class="slide-title">Web Development</h3>
+                    <img src="./resources/Anna_programmer.jpg" alt="Close up photo of Anna Isoz looking puzzled against a light sky">
+                    <p>As a hobby I am learning to code through the Codecademy Career Path Front End Engineer. I also help people get their own website up and running.</p>
+                </article>
+                <div class="next">
+                <a href="index.html"><button>Home</button></a>
+                <button id="next-three">Next</button>
+                </div>
+            </article>
+            <!---->
+            <article class="presentation-slides" id="slide-four">
+                <article class="slides">
+                    <h3 class="slide-title">Leisure Time</h3>
+                    <img src="./resources/Anna and Chester.jpg" alt="Close up photo of Anna Isoz and her black and white dog Chester">
+                    <p>In my spare time I love walking my dog, meeting new people, relaxing with my Mo, knitting, gardening and entertaining.</p>
+                </article>
+                <div class="next">
+                <a href="index.html"><button>Home</button></a>
+                <button id="next-four">Back to start</button>
+                </div>
+            </article>
+        </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
