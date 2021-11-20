@@ -199,6 +199,11 @@ button:hover {
     .next button {
         font-size: 1.1rem;
     }
+    button#next-four {
+        width: 120px;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
 }
 
 
@@ -327,6 +332,12 @@ button:hover {
 }
 .fab:hover {
     color: purple;
+}
+@media only screen and (max-width: 500px) {
+    a.email {
+        font-size: 0.8rem;
+        padding: 1rem 0;
+    } 
 }
 
 /* services page styles
